@@ -1,0 +1,758 @@
+.navbar2{
+    background-color:#fff;
+    height:9vh;
+    box-shadow: 0.1rem .1rem rgba(0, 0, 0,0.1);
+width:100%;
+    position:fixed;
+    z-index: 1000;
+}
+.jmalo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.agilelogo{
+    height:3.5rem;
+    width:3.5rem;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 210, 210);
+    
+    margin:10px;
+    margin-bottom:.5rem;
+    position:relative;
+}
+.agilesupportparah1{
+    font-size:1.3rem;
+    margin-left:1rem;
+   
+    
+}
+.agilesupportparap{
+    font-size:.8rem;
+    margin-left:1rem;
+    margin-bottom: .5rem;
+}
+.navcontainer{
+    display:flex;
+    flex:row;
+    justify-content: space-between;
+
+}
+.navmargin1{
+    margin-right:2rem;
+    margin-top: 1rem;
+    position:relative;
+}
+.navmargin2{
+    margin-right:2rem;
+    margin-top:1rem;
+    position:relative;
+    
+}
+.navbutton{
+    width:6rem;
+    height:2.5rem;
+    background-color: rgb(180, 255, 243);
+    border-style: solid;
+    border-width:2px;
+    border-color:rgb(0, 167, 128);
+    margin-left:7%;
+    border-radius: 12px;
+    margin-top: .5rem;
+    margin-right:1rem;
+}
+.navmargin3{ margin-right:1rem;
+  
+}
+.navmargin1 h6:hover{transform: scale(1.2);
+transition-duration: 300ms;
+color:black}
+.new:hover {transform: scale(1.15);
+    transition-duration: 300ms;
+}
+.navmargin2 h6:hover{transform: scale(1.2);
+    transition-duration: 300ms;}
+.navbutton:hover{
+    background-color:rgb(0, 167, 128);
+    border-width: 0px;
+    color:#fff;
+    transition-duration: 300ms;
+}
+.homemainpara{
+    width:40%;
+    margin-left:10%;
+    margin-top:10%;
+    
+    
+}
+.homemainparah1{font-weight: bold;
+    font-size: 3rem;
+    margin:1rem;
+
+}
+.homemainparah1p{
+    margin:1rem;
+    font-size:1.5rem;
+    color:rgb(0, 47, 101); 
+}
+.homemainimg{ margin:10%;
+    width:70%;
+
+}
+.homemainbutton{
+    height:3rem;
+    width:10rem;
+    margin-left:10%;
+    margin-top:3%;
+    border-radius:22px;
+    border-width:2px;
+    border-style: solid;
+    border-color:rgb(0, 119, 255);
+    background-color:rgb(178, 214, 255);
+    color:rgb(0, 119, 255);
+    font-size: 1.3rem;
+}
+.homemainbutton:hover{
+    background-color:rgb(0, 119, 255); 
+    color:#fff;
+    
+    border-width:0px;
+    transition-duration: 300ms;
+    transform: scale(1.05);
+}
+.colorbg{
+    background-color: rgb(241, 255, 255);
+    height:80vh;
+    box-shadow: 0.1rem .1rem rgba(0, 0, 0,0.1);
+}
+
+.homecardbgh3{
+    width:30vw;
+    margin-top:15%;
+    margin-right:5%;
+    font-size: 3rem;
+}
+.homecardbgp{
+    width:30vw;
+    margin-top:15%;
+    margin-left:5%;
+    font-size: 1.4rem;
+    color:rgb(37, 24, 43);
+}
+.homecard1{
+    width:80vw;
+    background-color:rgb(228, 232, 254) ;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding-bottom:4%;
+}
+.home2{margin-top:2%;}
+
+.homedownpara{
+    width:80vw;
+    text-align: center;
+    font-size: 1.4rem;
+
+}
+.homedownhead{
+    text-align: center;
+}
+
+.service_bx_pink .service_bx_body {
+    background-color: #f2ccd7;
+}
+.service_bx_body {
+    border-radius: 15px;
+    background-color: #ddecd5;
+    text-align: center;
+    padding: 0 1.75rem 1.75rem;
+    padding-top: 120px;
+    margin-top: -90px;
+    transition: all .3s ease;
+    border: 2px solid transparent;
+    min-height: 295px;
+}
+.item{
+    width:19vw;
+    height:40vh;
+}
+
+.service_bx_yellow .service_bx_body {
+    background-color:rgb(253, 250, 176);
+}
+
+.service_bx_purple .service_bx_body {
+    background-color:rgb(237, 194, 254);
+}
+.nh4{
+    font-weight: bold;
+}
+
+.item:hover .simg{
+    transform: scale(1.1);
+    transition-duration: 400ms;
+}
+.item:hover .newty{
+    border-width: 2px;
+    border-color: rgb(255, 234, 0);
+    box-shadow: .5rem .5rem .5rem rgba(255, 248, 154, 0.746);
+    transition-duration: 400ms;
+}
+.item:hover .oldty{
+   
+    color:rgb(255, 208, 0);
+    
+    font-size: 1.5rem;
+    transition-duration: 400ms;
+}
+.oldty{
+    font-size: 1.5rem;
+    color:rgb(25, 25, 25);
+}
+.item:hover .newtg{
+    border-width: 2px;
+    border-color: rgb(28, 170, 0);
+    box-shadow: .5rem .5rem .5rem rgba(208, 255, 183, 0.746);
+    transition-duration: 400ms;}
+
+.item:hover .newtp{
+        border-width: 2px;
+        border-color: rgb(218, 0, 80);
+        box-shadow: .5rem .5rem .5rem rgba(255, 166, 214, 0.746);
+        transition-duration: 400ms;}
+
+.item:hover .newtpu{
+border-width: 2px;
+            border-color: rgb(89, 0, 134);
+            box-shadow: .5rem .5rem .5rem rgba(234, 176, 255, 0.746);
+            transition-duration: 400ms;}
+
+.oldtg{
+                font-size: 1.5rem;
+                color:rgb(25, 25, 25);
+            }
+.oldtp{
+                font-size: 1.5rem;
+                color:rgb(25, 25, 25);}
+.oldtpu{
+                    font-size: 1.5rem;
+                    color:rgb(25, 25, 25);}
+
+.item:hover .oldtg{
+   
+                        color:rgb(28, 170, 0);
+                    
+                        font-size: 1.5rem;
+                        transition-duration: 400ms;
+                    }
+.item:hover .oldtp{
+   
+                color:rgb(218, 0, 80);
+            
+                font-size: 1.5rem;
+                transition-duration: 400ms;
+                }
+.item:hover .oldtpu{
+   
+                    color:rgb(89, 0, 134);
+                
+                    font-size: 1.5rem;
+                    transition-duration: 400ms;
+                }
+
+.expbg{
+    background-color: rgb(238, 252, 252);
+    height:100vh;
+    width:100%;
+}
+.priortise{
+    height:110vh;
+    background-color: #fdfafb;
+}
+
+.expparastart{
+    margin:8%;
+}
+
+
+
+.exppara{
+    margin-left:5%;
+    margin-top:1%;
+}
+.expparasmp{
+    font-size:20px;
+}
+.expnum{
+    color:rgb(0, 145, 255);
+    font-size: 35px;
+    text-align:center;
+    margin-top:2rem;
+    font-weight: bold;
+
+}
+.expnumdash{ font-size:80px;
+margin-left:1rem;
+margin-right:1rem;
+font-weight:lighter;}
+.expdet1{margin-left:1rem;}
+.expdet2{margin-left:1rem;
+
+}
+
+.recognition{
+    height:90vh;
+    width:100%;
+    background-color:  #ecf5ff;
+
+}
+.stars{
+    height:140px;
+    width:60vw;
+    background-color: #ffffff;  
+    margin:-70px;
+    border-radius: 30px;
+    padding:20px;
+box-shadow: 0.15rem .15rem rgba(0, 0, 0,0.1);}
+.barimg{
+    height:50px;
+    width:10vw;
+    margin:10px;
+}
+.barpara{
+    text-align: center;
+    font-size:20px;
+}
+.reco{
+
+}
+.indushead{
+    text-align: center;
+    margin-top:7rem;
+    margin-bottom:5rem;
+    font-size:3rem;
+
+    
+}
+.imersiveshadow{
+    filter: drop-shadow(0 2px 2px #757575);
+}
+.industryrecobackground{
+    background-color: #ecf5ff;
+    height:60vh;
+}
+.couroselbackg{
+    background-color: #ecf5ff;
+    height:45vh;
+
+    
+    
+}
+.ssfpara{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+.ssfimgsmall{
+    height:13rem;
+    width:24rem;
+    background-size:cover;
+    border-radius:15px;
+    margin-top: -7.5rem;
+
+}
+.cardbackground{
+    height:18rem;
+    width:27rem;
+    background-color:#fff;
+    filter: drop-shadow(0 2px 2px #9291916d);
+    border-radius: 20px;
+    margin-top:7rem;
+    
+}
+.margin-class{
+    margin-left:5rem;
+    margin-right:5rem;
+}
+.smallestimg{
+    height:1.5rem;
+    width:1.5rem;
+    margin:0.5rem;
+}
+.carddownthings{
+    
+}
+.hrefnin{
+    font-size:22px;
+    color:black;
+}
+.ssfimgsmall1{
+    border-width:1.5px;
+    border-style:solid;
+}
+.ssfbackground{
+    background-color:#f8fdfd;
+    height:100vh;
+}
+.cardbackground:hover{filter: drop-shadow(0 15px 15px #9291916d);
+    transition-duration: 200ms;
+    transform: scale(1.002);
+
+}
+.cardbackground:hover .hrefnin{
+    color:rgb(0, 145, 255);
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+.cardbackground:hover .kuchbhi1{
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+.sliderworkshead{
+    text-align: center;
+    margin:3rem;
+    
+
+}
+.sliderbgnewhere{
+    height:40vh;
+    background-color: rgb(236, 255, 247);
+    padding-top: 3rem;
+}
+.smalltash{
+    height:9rem;
+    width:12rem;
+    background-color: white;
+    filter: drop-shadow(0 2px 2px #9291916d);
+    padding:2rem;
+    border-radius: 15px;
+}
+.bluesmalltash{
+    color:rgb(0, 123, 255);
+    font-weight:bold;
+    text-align: center;
+}
+.balcksmalltashpara{
+    color:#000;
+    text-align: center;
+}
+.contonusbg{
+    height:60vh;
+    background-color:#fbfaff
+}
+.writtenwhycountus{
+    width:40vw;
+}
+
+.bgtesti{
+    background-color:#fff;
+    height:120vh;
+}
+
+.arrow1{
+    height:5rem;
+    width:15rem;
+    background-size:cover;
+}
+.planbg{
+    background-color:#f9ffff;
+    height:100vh;
+
+}
+.imgtesti{
+    background-size:cover;
+    border-radius: 30px;
+}
+.imggool{
+    border-radius: 9930px;
+    height:
+}
+
+.innovatebg{
+    background-color:rgb(243, 250, 252);
+    padding:5rem;
+}
+.paragraphinnovate{
+    width:40vw;
+    padding-top:5rem;
+}
+
+.bgfooter{
+background-color: rgb(0, 0, 40);
+height:60vh;
+color:#fff;
+width:100vw;
+}
+.starsnew{
+    height:90px;
+    width:35rem;
+    background-color: rgb(0, 0, 40);
+
+}
+.barim1{
+    height:25px;
+    width:5rem;
+    margin:0px;
+    border-radius:5px
+}
+.barpara1{
+    font-size:15px;
+}
+.foothr{
+    border-color:rgb(0, 149, 255);
+    
+    border-width: 2px;
+    width:20rem;
+}
+.centter{
+    text-align:center;
+    width:20vw;
+}
+.paras{
+    width:20vw;
+}
+
+.paracenter{
+    text-align: center;
+    width:20rem
+}
+.footerbar{
+    height:50px;
+    width:100vw;
+    background-color:rgb(0, 149, 255) ;
+    margin-top:3rem;
+}
+.baropt{
+    font-size: 20px;
+}
+.barscimg{
+    height:2.7rem;
+    width:2.7rem;
+    border-radius:40px;
+    background-color: #fff;
+    
+}
+.baroptn{
+    margin-left:10rem;
+}
+.barsimg1{
+    margin-right:10rem;
+}
+
+.industrymainhead{
+    margin-top:7rem;
+    margin-bottom:3rem;
+}
+.industrymainpara{
+    font-size:1.3rem;
+    width:75vw;
+}
+.industrypagebg{
+    height:130vh;
+    background-color:#fbfeff;
+}
+.industrycard{
+    background-color:#fff;
+    filter: drop-shadow(0 2px 2px #929191ab);
+    border-radius: 20px;
+    height:250px;
+    width:350px;
+    margin:1rem;
+    position:relative;
+}
+.navigationblockindus{
+    background-color:rgb(212, 231, 255);
+    border-radius:20px;
+    padding:1rem;
+    width:200px;
+    text-align:center;
+    margin-left:12rem;
+    margin-top:1rem;
+}
+.imgindus{
+    align-items: center;
+    filter: drop-shadow(0 2px 2px #929191ab);
+    
+}
+.industrycard:hover{
+    filter: drop-shadow(0 10px 10px #92919180);
+    transition-duration:200ms;
+
+}
+.cardheadindus{filter: drop-shadow(0 2px 2px #929191ab);
+
+}
+.industrycard:hover .imgindus{
+    filter: drop-shadow(0 10px 10px #92919130);
+    transform:scale(1.05);
+    transition-duration:200ms
+
+}
+.industrycard:hover .cardheadindus{
+    transform:scale(1.05);
+    transition-duration:200ms;
+}
+.indusedupara{
+    font-size:15px;
+}
+.indusimgmain{
+
+}
+.induspage1bg{
+    height:90vh;
+    background-color: rgb(234, 249, 255);
+}
+.eduimgpad{
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:40px;
+    padding-right:40px;
+}
+.bluecard{
+    height:25rem;
+    width:75vw;
+    background-color:rgb(224, 250, 255);
+    border-radius:40px;
+    border-color:rgb(0, 195, 255);
+    border-width: 2px;
+    border-style:solid;
+
+}
+.bluecardpara{
+    width:30vw;
+    font-size:20px;
+    margin-top:7rem;
+    margin-right:3rem
+}
+.danda{font-size:15rem;
+margin-right: 2rem;;
+}
+.bluecardhead{
+    margin-top:7rem;
+    margin-left:2rem
+}
+.cardnewedubackground{
+    width:20vw;
+    height:20rem;
+    
+    margin:20px;
+    border-radius:25px;
+}
+.classnewhead{
+    text-align:center
+}
+.cardnewedubackground1{
+    background-color:rgb(255, 216, 216);
+}
+.cardnewedubackground2{
+    background-color:rgb(255, 247, 216);
+}
+.cardnewedubackground3{
+    background-color:rgb(216, 255, 219);
+}
+.cardnewedubackground4{
+    background-color:rgb(216, 255, 254);
+}
+.cardnewedubackground5{
+    background-color:rgb(255, 216, 232);
+}
+.cardnewedubackground6{
+    background-color:rgb(243, 216, 255);
+}
+.cardnewedubackground1:hover{
+    box-shadow:3px 3px   rgb(182, 0, 0);
+    
+    
+    transition-duration: 300ms;
+    transform:scale(1.01);
+}
+.cardnewedubackground2:hover{
+    box-shadow:3px 3px rgb(255, 204, 0);
+    
+    
+    transition-duration: 300ms;
+    transform:scale(1.01);
+}
+.cardnewedubackground3:hover{
+    box-shadow:3px 3px rgb(0, 167, 14);
+    
+    transition-duration: 300ms;
+    transform:scale(1.01);
+}
+.cardnewedubackground4:hover{
+    box-shadow:3px 3px rgb(0, 198, 192);
+   
+    transition-duration: 300ms;
+    transform:scale(1.01);
+}
+.cardnewedubackground5:hover{
+    box-shadow:3px 3px rgb(255, 0, 106);
+
+    transition-duration: 300ms;
+    transform:scale(1.01);
+}
+.cardnewedubackground6:hover{
+    box-shadow:3px 3px rgb(119, 0, 170);
+   
+    transition-duration: 300ms;
+    transform:scale(1.01);
+}
+.classnewpara{
+    text-align: center;
+    font-size: 15px;
+    
+}
+.benifitsofdigitilisationbg{
+    background-color:#f7feff;
+    height:120vh;
+    
+  
+}
+.benifitsdigitalcard{width:20vw;
+height:20rem;
+background-color:#f7feff;
+border-radius:20px;}
+.hrcolor{
+    border-width:2px;
+    border-style:solid;
+    width:7rem;
+    border-color:rgb(0, 192, 250);
+}
+.hr2{border-color:rgb(4, 250, 0);}
+.hr3{border-color:rgb(250, 0, 137);}
+.hr4{border-color:rgb(250, 175, 0);}
+.hr5{border-color:rgb(200, 0, 0);}
+.hr6{border-color:rgb(142, 0, 250);}
+.workwithbg{
+    background-color: rgb(234, 255, 252);
+    height:40vh;
+}
+.weworkwithcard{
+    height:8rem;
+    width:8rem;
+    background-color:#fff;
+    filter: drop-shadow(0 2px 2px #a5a5a5);
+    margin:20px;
+    border-radius: 20px;
+}
+.healthcarebg{
+    background-color: #fff;
+}
+.benifitsdigitalcard:hover .hrcolor{
+    width:95%;
+    transition-duration: 500ms;
+}
+.benifitsdigitalcardborder{    border-radius: 20px;
+    border-width: 0px;
+    border-style: solid;
+
+}
+.benifitsofdigitilisationbg1{
+    background-color:#f7feff;
+    height:60vh;
+    
+  
+}
